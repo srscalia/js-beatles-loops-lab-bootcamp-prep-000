@@ -12,6 +12,6 @@ function johnLennonFActs(factsArray) {
   var newArray = {};
   var index = 0;
   while (index < factsArray.length) {
-    newArray.push(`${factsArray[index]}`);
+    newArray.push(`${factsArray[index]}`+"!!!");
   }
 }
