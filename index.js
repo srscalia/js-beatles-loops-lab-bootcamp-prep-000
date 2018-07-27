@@ -13,7 +13,7 @@ function johnLennonFActs(factsArray) {
   var index = 0;
   while (index < factsArray.length) {
     newArray.push(`${factsArray[index]}`+"!!!");
-    index++
+    index++;
   }
   return newArray;
 }
